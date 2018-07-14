@@ -1,4 +1,5 @@
 
+package com.pharmacy.model;
 
 public class OrderItem {
 int quantity;

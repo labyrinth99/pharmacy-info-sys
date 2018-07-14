@@ -1,4 +1,4 @@
-
+package com.pharmacy.model;
 
 public class ActiveIngredient {
 int id;

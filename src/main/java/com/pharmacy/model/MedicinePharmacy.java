@@ -1,3 +1,4 @@
+package com.pharmacy.model;
 
 public class MedicinePharmacy {
 int count;

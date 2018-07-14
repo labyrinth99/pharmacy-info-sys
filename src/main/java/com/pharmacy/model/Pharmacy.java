@@ -1,3 +1,4 @@
+package com.pharmacy.model;
 
 
 import java.util.List;

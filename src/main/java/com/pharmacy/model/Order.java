@@ -1,4 +1,5 @@
 
+package com.pharmacy.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +28,7 @@ public void setNumber(int number) {
 public Order() {
 	
 	super();
-	LstOfitems = new ArrayList<>();
+	LstOfitems = new ArrayList<OrderItem>();
 }
 public float getTotalPrice() {
 	return totalPrice;
@@ -46,7 +47,7 @@ public Order(int number, float totalPrice, boolean isPaid) {
 	this.number = number;
 	this.totalPrice = totalPrice;
 	this.isPaid = isPaid;
-	LstOfitems = new ArrayList<>();
+	LstOfitems = new ArrayList<OrderItem>();
 }
 
 }
