@@ -12,12 +12,13 @@ List<Medicine> lstofmedicine;
 public Pharmacy() {
 	super();
 }
-public Pharmacy(int id, String name, String location, float tax) {
+public Pharmacy(int id, String name, String location, float tax, List<Medicine> lstofmedicine) {
 	super();
 	this.id = id;
 	this.name = name;
 	this.location = location;
 	this.tax = tax;
+	this.lstofmedicine = lstofmedicine;
 }
 public int getId() {
 	return id;
