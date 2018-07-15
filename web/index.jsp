@@ -38,7 +38,7 @@
     <%--<div class="w3l_header_right">--%>
       <%--<ul>--%>
         <%--<li class="dropdown profile_details_drop">--%>
-          <%--<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i><span class="caret"></span></a>--%>
+          <%--<a href="#" class="dropdown-toggle" data-toggle="dropdown"><em class="fa fa-user" aria-hidden="true"></em><span class="caret"></span></a>--%>
           <%--<div class="mega-dropdown-menu">--%>
             <%--<div class="w3ls_vegetables">--%>
               <%--<ul class="dropdown-menu drp-mnu">--%>
@@ -53,6 +53,51 @@
     <%--<div class="w3l_header_right1">--%>
       <%--<h2><a href="mail.html">Contact Us</a></h2>--%>
     <%--</div>--%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="clearfix"> </div>
   </div>
 

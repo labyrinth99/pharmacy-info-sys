@@ -3,6 +3,7 @@ package com.pharmacy.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class DB {
     private List<User> userList = new ArrayList<User>();
@@ -14,8 +15,6 @@ public class DB {
 
     private void Init() {
         //Initializing Dummy Values
-<<<<<<< HEAD
-        Random randomTemp = new Random();
         int user = 6;
         int activeIngredients = 6;
         int medicine = 6;
@@ -63,33 +62,16 @@ public class DB {
                     medicineList.get(randomMedicine.nextInt(medicine - 1)),
                     pharmacyList.get(randomPharmacy.nextInt(pharmacy - 1)));
             medicinePharmacyList.add(tempMedicinePharmacy);
-=======
-        for (int i=1;i<6;i++){
-            User tempUser= new User("user"+i,"pass"+i,"Mark"+i,"address "+i,"emailforuser"+i+"@yahoo.com","641999655"+i,new Order());
-            userList.add(tempUser);
+
         }
-
-        for (int i=1;i<6;i++){
-            Medicine tempMedicine=new Medicine(i,"Medicine"+i,(float)10.5+i);
-            medicineList.add(tempMedicine);
-        }
-
-        for(int i=1;i<6;i++){
-
->>>>>>> af07dd0908ff8cc11451c95a555c64ef427bc121
-        }
-
     }
 
-    public DB() {
-        this.Init();
-<<<<<<< HEAD
-        System.out.println("DB Initialization Complete");
-        /*for (MedicinePharmacy i : medicinePharmacyList) {
-            System.out.println(i.toString());
-        }*/
-=======
-    }
+    public void DB() {
+            this.Init();
+
+            System.out.println("DB Initialization Complete");
+
+        }
 
     public List<User> getUserList() {
         return userList;
@@ -137,6 +119,5 @@ public class DB {
 
     public void setOrderList(List<Order> orderList) {
         this.orderList = orderList;
->>>>>>> af07dd0908ff8cc11451c95a555c64ef427bc121
     }
 }

@@ -12,7 +12,7 @@ List<Medicine> lstofmedicine;
 public Pharmacy() {
 	super();
 }
-public Pharmacy(int id, String name, String location, float tax, List<Medicine> lstofmedicine) {
+public Pharmacy(int id, String name, String location, float tax) {
 	super();
 	this.id = id;
 	this.name = name;

@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-<<<<<<< HEAD
+
 
 
     <!--Initialize DB during Startup-->
@@ -11,6 +11,5 @@
         <listener-class>com.pharmacy.controller.StartUpContextListener</listener-class>
     </listener>
 
-=======
->>>>>>> af07dd0908ff8cc11451c95a555c64ef427bc121
+
 </web-app>

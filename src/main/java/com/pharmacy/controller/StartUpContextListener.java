@@ -13,6 +13,7 @@ public class StartUpContextListener implements ServletContextListener {
         DB dataBase = new DB();
         ServletContext ctx = sce.getServletContext();
         ctx.setAttribute("dataBase", dataBase);
+        System.out.println("here started");
 
     }
 
