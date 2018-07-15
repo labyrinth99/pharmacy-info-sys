@@ -10,9 +10,9 @@ import javax.servlet.ServletContextListener;
 public class StartUpContextListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        DB dataBase=new DB();
+        DB dataBase = new DB();
         ServletContext ctx = sce.getServletContext();
-        ctx.setAttribute("dataBase",dataBase);
+        ctx.setAttribute("dataBase", dataBase);
 
     }
 
