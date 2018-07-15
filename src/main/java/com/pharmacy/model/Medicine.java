@@ -8,6 +8,7 @@ public class Medicine {
 	List<ActiveIngredient> LstOfAct ;
 int id;
 String name;
+String imgurl;
 float price;
 public List<ActiveIngredient> getLstOfAct() {
 	return LstOfAct;
@@ -44,4 +45,11 @@ public Medicine(int id, String name, float price) {
 	this.LstOfAct = new ArrayList<ActiveIngredient>();
 }
 
+	public String getImgurl() {
+		return imgurl;
+	}
+
+	public void setImgurl(String imgurl) {
+		this.imgurl = imgurl;
+	}
 }

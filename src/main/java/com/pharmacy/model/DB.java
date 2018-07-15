@@ -66,7 +66,8 @@ public class DB {
         }
     }
 
-    public void DB() {
+
+    public  DB() {
             this.Init();
 
             System.out.println("DB Initialization Complete");

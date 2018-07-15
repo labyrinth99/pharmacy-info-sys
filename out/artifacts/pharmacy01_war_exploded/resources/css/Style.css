@@ -104,10 +104,7 @@ body a:hover{
 .top_brand_left, .w3ls_w3l_banner_left {
     width: 100%;
 }
-.hover14 figure:hover::before,.top_brand_left:hover .hover14 figure::before{
-    -webkit-animation: shine .75s;
-    animation: shine .75s;
-}
+
 .top_brand_left {
     padding-left: 0;
 }
@@ -116,13 +113,7 @@ body a:hover{
     float: left;
     width: 50%;
 }
-.hover14.column {
-    width: 75%;
-    margin: 0 auto;
-}
-.hover14.column {
-    width: 100%;
-}
+
 .agile_top_brand_left_grid {
     position: relative;
     display: block;
@@ -133,7 +124,7 @@ body a:hover{
     border: 1px solid #BEBEBE;
     position:relative;
 }
-.agile_top_brand_left_grid:hover .snipcart-details input.button,.snipcart-details input.button:hover{
+ input.button:hover{
     background: #84C639;
 }
 /*-- //Pay-page --*/
@@ -159,27 +150,35 @@ body a:hover{
     padding:1em;
     border:1px solid #D7D7D7;
 }
-.agile_top_brand_left_grid1 img{
-    margin:0 auto;
-}
-.snipcart-details input.button {
-    font-size: 14px;
+
+
+input.button {
+    font-size: 10px;
     color: #fff;
     background: #FA1818;
     text-decoration: none;
     position: relative;
     border: none;
+    margin: 4px;
+    text-align: center;
     border-radius: 0;
-    width: 100%;
+    width: 45%;
+
     text-transform: uppercase;
-    padding: .5em 0;
+    padding: 5px;
     outline: none;
 }
-.agile_top_brand_left_grid:hover .snipcart-details input.button,.snipcart-details input.button:hover{
-    background: #84C639;
-}
+/*.agile_top_brand_left_grid:hover .snipcart-details input.button,.snipcart-details input.button:hover{*/
+    /*background: #84C639;*/
+/*}*/
 .snipcart-details {
     text-align: center;
     margin: 1.5em auto 1em;
     width:77%;
+}
+.center-product{
+    vertical-align: middle;
+    width: 200px;
+    display: block;
+    text-align: center;
 }
