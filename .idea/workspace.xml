@@ -209,8 +209,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-164" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-165" />
     <option name="y" value="40" />
     <option name="width" value="1300" />
     <option name="height" value="690" />
@@ -538,43 +538,43 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/web/resources/js/Pharmacyjs.js</url>
+          <url />
           <line>2</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/web/resources/js/Pharmacyjs.js</url>
+          <url />
           <line>8</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/pharmacy/controller/SearchController.java</url>
+          <url />
           <line>31</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/pharmacy/model/DB.java</url>
+          <url />
           <line>85</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/pharmacy/controller/GetDataServlet.java</url>
+          <url />
           <line>25</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/pharmacy/controller/GetDataServlet.java</url>
+          <url />
           <line>44</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/pharmacy/controller/SearchController.java</url>
+          <url />
           <line>23</line>
           <properties />
           <option name="timeStamp" value="15" />
