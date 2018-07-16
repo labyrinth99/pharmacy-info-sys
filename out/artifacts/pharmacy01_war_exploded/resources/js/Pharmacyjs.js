@@ -1,11 +1,19 @@
-$(function () {
+window.onload = function () {
     debugger
-    $.ajax({
-        url : 'GetAllmedicationServlet',
+    $('#searchbtn').onclick = searchMedicine();
 
-        success : function(responseText) {
-            debugger
-            $('#ajaxGetUserServletResponse').text(responseText);
-        }
-    });
-});
+    function searchMedicine() {
+        debugger
+        var medicine = $('#medicine').val();
+
+        $.post('Search', {medicine: medicine})
+    }
+
+    $('.button.getdata').click(getdata);
+
+    function getdata(e) {
+        debugger
+        var medicine_id = e.target.id;
+        $.post('getdata', {medicine_id: medicine_id})
+    }
+};

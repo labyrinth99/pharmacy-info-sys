@@ -5,13 +5,17 @@
   Time: 2:24 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+         pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+<%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>
+<%--<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>--%>
+<!DOCTYPE HTML>
 <html>
 <head>
     <title>Pharmcay InfoSys</title>
-    <link href="resources/js/jquery.min.js"  />
-    <link href="resources/js/jquery-3.3.1.js"  />
-    <link href="resources/js/Pharmacyjs.js"  />
+
 
 
 
@@ -19,7 +23,8 @@
 
     <link href="resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="resources/css/flexslider.css" rel="stylesheet" type="text/css" media="all"/>
-
+    <script type="text/javascript" src="resources/js/jquery.min.js" ></script>
+    <script type="text/javascript" src="resources/js/Pharmacyjs.js" ></script>
 </head>
 <body>
 
@@ -28,9 +33,9 @@
         <a href="#">Welcome to Pharmacy InfoSys</a>
     </div>
     <div class="w3l_search">
-        <form action="#" method="post">
-            <input type="text" name="Product" placeholder="Search a product..." required="">
-            <input type="submit" value=" ">
+        <form  method="post">
+            <input type="text" id="medicine"  name="medicine" placeholder="Search a product..." required >
+            <input id="searchbtn" type="submit" value=" ">
         </form>
     </div>
     <%--<div class="product_list_header">--%>
@@ -71,6 +76,8 @@
         <h3>Hot Offers</h3>
         <div id="ajaxGetUserServletResponse"></div>
         <div class="agile_top_brands_grids">
+            <c:forEach items="${Medicines}" var="Medicine">
+
 
 
             <div class="col-md-3 top_brand_left">
@@ -84,16 +91,16 @@
                                 <a href="single.html"> <img title=" " alt=" " src="resources/img/1.png"/></a>
 
 
-                            <p>fortune sunflower oil</p>
-                            <h4>$7.99 <span>$10.00</span></h4>
+                            <p>${Medicine.name}</p>
+                            <h4>Price : ${Medicine.price} $</h4>
                             </div>
                             <div>
-                                <form action="checkout.html" method="post">
+                                <form  method="post">
                                     <fieldset>
-                                        <input type="hidden" name="cmd" value="_cart"/>
 
-                                        <input type="submit" name="submit" value="Alternatives" class="button"/>
-                                        <input type="submit" name="submit" value="Pharmacies" class="button"/>
+
+                                        <input type="submit"  id="Alternatives${Medicine.id}" value="Alternatives" class="button getdata"/>
+                                        <input type="submit" id="Pharmacies${Medicine.id}" value="Pharmacies" class="button getdata"/>
                                     </fieldset>
 
                                 </form>
@@ -105,7 +112,7 @@
                 </div>
 
             </div>
-
+            </c:forEach>
 
             <div class="clearfix"></div>
         </div>

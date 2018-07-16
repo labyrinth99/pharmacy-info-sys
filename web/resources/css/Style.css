@@ -112,6 +112,7 @@ body a:hover{
     padding: 0 1em;
     float: left;
     width: 50%;
+    margin-top: 10px;
 }
 
 .agile_top_brand_left_grid {
@@ -123,6 +124,7 @@ body a:hover{
     padding: .5em;
     border: 1px solid #BEBEBE;
     position:relative;
+    margin-top: 10px;
 }
  input.button:hover{
     background: #84C639;
@@ -181,4 +183,8 @@ input.button {
     width: 200px;
     display: block;
     text-align: center;
+}
+.getdata{
+
+
 }
