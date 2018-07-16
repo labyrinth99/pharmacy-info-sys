@@ -37,3 +37,4 @@ public class SearchController extends HttpServlet {
         view.forward(req, resp);
     }
 }
+

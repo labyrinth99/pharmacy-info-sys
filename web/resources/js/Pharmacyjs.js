@@ -17,3 +17,4 @@ window.onload = function () {
         $.post('getdata', {medicine_id: medicine_id})
     }
 };
+
